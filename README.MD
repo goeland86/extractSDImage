@@ -9,7 +9,9 @@ The need came originally from the development of Kamikaze2 (http://github.com/go
 from a barebones Ubuntu image the SD card then gets the addons needed for the Kamikaze image. To then extract the
 modified image in a way that can be distributed was proving haphazard and problematic.
 
-This is an offshoot of the search for a reliable solution, which I felt deserved its own repository.
+Specifically what this script allows is that if your image has a small partition size (i.e. 1.6GB for the barebones Ubuntu we use on Kamikaze2), is that if you use an 8GB microSD card as a base, you will only extract the partition table and partition. This means that a user with a 2GB SD card can re-use the same image without complicated middle steps. While true experts would probably know how to do this easily, it became apparent that there are few people proposing easy, scripted solutions that work first time, every time.
+
+This is an offshoot of the search for a reliable solution, which I felt deserved its own project as it can be improved to help anyone building an image, be it for a Raspberry Pi, BeagleBone or other embedded devices where there is a need to clone the original 
 
 I hope this will help anyone developing custom SD or USB drive images for any embedded systems.
 
