@@ -17,6 +17,7 @@ I hope this will help anyone developing custom SD or USB drive images for any em
 
 * Linux system with sudo access. (Current development is based on an Ubuntu platform, but should work elsewhere as well)
 * pv
+* xz
 * parted
 * dd
 * device name for the root device (i.e. /dev/mmcblk0, not /dev/mmcblk0p1)
